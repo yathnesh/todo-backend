@@ -8,7 +8,7 @@ const app = express();
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:3000',
-  process.env.FRONTEND_URL
+  'https://todo-frontend-three-hazel.vercel.app'
 ].filter(Boolean); // Remove undefined values
 
 app.use(cors({
